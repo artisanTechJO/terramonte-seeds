@@ -39,6 +39,23 @@
             </div>
         </div>
     </div>
+    <div class="modal fade" id="menu-id" tabindex="-1" aria-labelledby="menu-id" aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <ul class="menu d-xl-flex flex-wrap pl-0 list-unstyled">
+                        <li><a href="{{url('/')}}">Home</a></li>
+                        <li><a href="{{route('about-us.index')}}">About Us</a></li>
+                        <li><a href="{{route('events')}}">Event's</a></li>
+                        <li><a href="{{url('/crops')}}">crops</a></li>
+                        <li><a href="{{url('/new-crops')}}">New crops</a></li>
+                        <li><a href="{{url('/special-crops')}}">Special crops</a></li>
+                        <li><a href="{{route('contact')}}">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="header-bottom">
         <div class="row m-0 align-items-center mega-menu-relative">
             <div class="col-md-2 p-0 d-none d-xl-block">
