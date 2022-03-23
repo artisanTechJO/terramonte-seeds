@@ -56,6 +56,12 @@
                 display: block !important;
             }
         }
+        .vp-video-wrapper{
+            border-radius: 10px;
+        }
+        .player .vp-title{
+            display: none;
+        }
     </style>
     @yield('head')
 </head>
