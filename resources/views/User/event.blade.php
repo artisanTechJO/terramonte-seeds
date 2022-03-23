@@ -17,6 +17,9 @@
                 height:250px !important;
             }
         }
+        .vp-center #player{
+            height:300px !important;
+        }
     </style>
 @endsection
 @section('content')
