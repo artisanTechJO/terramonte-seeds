@@ -57,10 +57,10 @@
             }
         }
         #events .vp-video-wrapper{
-            border-radius: 10px;
+            border-radius: 10px !important;
         }
         #events .player .vp-title{
-            display: none;
+            display: none !important;
         }
     </style>
     @yield('head')
