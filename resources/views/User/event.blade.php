@@ -14,7 +14,7 @@
         }
         @media(max-width:364px){
             iframe{
-                height:100px !important;
+                height:250px !important;
             }
         }
     </style>
