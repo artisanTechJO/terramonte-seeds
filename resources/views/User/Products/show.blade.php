@@ -90,7 +90,7 @@
                             <div class="carousel-inner " style="width: 100%">
                                 @foreach($product->media as $key=>$image)
                                     <div style="width: 100%" class="carousel-item @if($key ==0) active @endif " data-6++-number="{{$key}}">
-                                        <img style="width: 400px !important;" src="{{$image->getUrl()}}" class="d-block w-100 style-slider-img" alt="..." data-remote="https://source.unsplash.com/Pn6iimgM-wo/" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+                                        <img src="{{$image->getUrl()}}" class="d-block w-100 style-slider-img" alt="..." data-remote="https://source.unsplash.com/Pn6iimgM-wo/" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
                                     </div>
                                 @endforeach
                             </div>
