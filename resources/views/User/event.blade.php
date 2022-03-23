@@ -10,15 +10,18 @@
         @media(min-width:365px) and (max-width:700px){
             iframe{
                 height:400px !important;
+                border-radius: 10px;
             }
         }
         @media(max-width:364px){
             iframe{
                 height:450px !important;
+                border-radius: 10px;
             }
         }
         .vp-center #player{
             height:400px !important;
+            border-radius: 10px;
         }
     </style>
 @endsection
