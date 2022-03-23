@@ -160,7 +160,7 @@
         loop: true,
         spaceBetween: 0,
         autoplay: {
-            delay: 5000,
+            delay: 2000,
         },
         speed: 2000,
         pagination: {
