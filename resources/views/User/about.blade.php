@@ -5,13 +5,13 @@
     <section class="about-section section-ptb">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8  pr-xl-5">
+                <div class="col-lg-8 order-sm-last pr-xl-5">
                     <div class="about-content mb-4 mb-lg-0 pr-lg-5">
                         <h3>{{$about->title}}</h3>
                         <p style="line-height:30px">{!!$about->description!!}</p>
                     </div>
                 </div>
-                <div class="col-lg-4 order-lg-first order-xs-1">
+                <div class="col-lg-4 order-sm-first order-xs-1">
                     <div class="about-image">
                         <img src="{{$about->getMedia('about')[0]->getUrl()}}" alt="about image">
                     </div>
