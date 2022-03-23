@@ -3102,7 +3102,7 @@
               // linear, easeout, easein, easeinout, swing, bounce, elastic
               speed: 7000,
               animateGradually: {
-                delay: 7000,
+                delay: 5000,
                 enabled: true
               },
               dynamicAnimation: {

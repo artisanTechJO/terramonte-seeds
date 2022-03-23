@@ -160,7 +160,7 @@
         loop: true,
         spaceBetween: 0,
         autoplay: {
-            delay: 7000,
+            delay: 5000,
         },
         speed: 7000,
         pagination: {
@@ -177,7 +177,7 @@
         initialSlide: 2,
         spaceBetween: 30,
         autoplay: {
-            delay: 3500,
+            delay: 5000,
             disableOnInteraction: false,
           },
         breakpoints: {
