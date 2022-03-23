@@ -4,7 +4,7 @@
 <!-- about section start -->
 
     <div class="container">
-        <div class="row justify-content-center mt-5">
+        <div class="row justify-content-center mt-5" id="events">
             <div class="col-lg-9  main-content">
                 <div class="entry-wrapper">
                     <div class="entry-single">

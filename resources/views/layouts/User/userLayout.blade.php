@@ -56,10 +56,10 @@
                 display: block !important;
             }
         }
-        .vp-video-wrapper{
+        #events .vp-video-wrapper{
             border-radius: 10px;
         }
-        .player .vp-title{
+        #events .player .vp-title{
             display: none;
         }
     </style>
