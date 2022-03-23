@@ -162,7 +162,7 @@
         autoplay: {
             delay: 5000,
         },
-        speed: 7000,
+        speed: 3000,
         pagination: {
             el: '.swiper-pagination',
             clickable: true

@@ -3100,14 +3100,14 @@
               enabled: true,
               easing: 'easeinout',
               // linear, easeout, easein, easeinout, swing, bounce, elastic
-              speed: 7000,
+              speed: 3000,
               animateGradually: {
                 delay: 5000,
                 enabled: true
               },
               dynamicAnimation: {
                 enabled: true,
-                speed: 7000
+                speed: 3000
               }
             },
             background: 'transparent',
@@ -8310,7 +8310,7 @@
             animations: {
               dynamicAnimation: {
                 enabled: true,
-                speed: 7000
+                speed: 3000
               }
             },
             toolbar: {
