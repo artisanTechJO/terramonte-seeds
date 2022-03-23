@@ -29,14 +29,14 @@
                                     L-1470 Luxembourg
                                 </span>
                             </li>
-                            <li>
-                                <span class="title">Phone</span>
-                                <span class="desc">+440 875369208 - Office <br> +440 353363114 - Fax</span>
-                            </li>
-                            <li>
-                                <span class="title">Email</span>
-                                <span class="desc">support@sitename.com <br> info@sitename.com</span>
-                            </li>
+{{--                            <li>--}}
+{{--                                <span class="title">Phone</span>--}}
+{{--                                <span class="desc">+440 875369208 - Office <br> +440 353363114 - Fax</span>--}}
+{{--                            </li>--}}
+{{--                            <li>--}}
+{{--                                <span class="title">Email</span>--}}
+{{--                                <span class="desc">support@sitename.com <br> info@sitename.com</span>--}}
+{{--                            </li>--}}
                         </ul>
                     </div>
                 </div>
