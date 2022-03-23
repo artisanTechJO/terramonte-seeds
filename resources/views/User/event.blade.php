@@ -1,5 +1,14 @@
 @extends('layouts.User.userLayout')
-
+@section('head')
+    <style>
+        #events .vp-video-wrapper{
+            border-radius: 10px !important;
+        }
+        #events .player .vp-title{
+            display: none !important;
+        }
+    </style>
+@endsection
 @section('content')
 <!-- about section start -->
 

@@ -56,12 +56,7 @@
                 display: block !important;
             }
         }
-        #events .vp-video-wrapper{
-            border-radius: 10px !important;
-        }
-        #events .player .vp-title{
-            display: none !important;
-        }
+
     </style>
     @yield('head')
 </head>
