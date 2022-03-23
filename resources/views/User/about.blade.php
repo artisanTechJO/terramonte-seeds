@@ -11,7 +11,7 @@
                         <p style="line-height:30px">{!!$about->description!!}</p>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 order-sm-1">
                     <div class="about-image">
                         <img src="{{$about->getMedia('about')[0]->getUrl()}}" alt="about image">
                     </div>
