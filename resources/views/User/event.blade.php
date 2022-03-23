@@ -9,16 +9,16 @@
         }
         @media(min-width:365px) and (max-width:700px){
             iframe{
-                height:300px !important;
+                height:400px !important;
             }
         }
         @media(max-width:364px){
             iframe{
-                height:250px !important;
+                height:450px !important;
             }
         }
         .vp-center #player{
-            height:300px !important;
+            height:400px !important;
         }
     </style>
 @endsection
