@@ -9,7 +9,10 @@
                 <div class="entry-wrapper">
                     <div class="entry-single">
                         <div class="entry-header">
-                            <img src="https://player.vimeo.com/video/691534464?h=1db6120620" alt="thumb">
+                            <video controls>
+                                <source src="https://player.vimeo.com/video/691534464?h=1db6120620" type="video/mp4">
+                            </video>
+
                         </div>
                         <div class="entry-content">
                             <ul class="meta-post list-unstyled pl-0 d-flex">
