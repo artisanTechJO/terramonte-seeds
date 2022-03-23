@@ -10,11 +10,20 @@
                 <div class="contact-info-wrapper">
                     <div class="contact-info">
                         <h4>Get In Touch</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. consequuntur quibusdam enim expedita sed nesciunt incidunt </p>
+                        <p>TERRA  MONTE  S.A.</p>
+                        <p>(CONTINOUSLY INNOVATING &CREATING) </p>
                         <ul class="contact-details">
                             <li>
                                 <span class="title">Address</span>
-                                <span class="desc">795 South Park Avenue, Door 6 Wonderland, CA 94107, Australia</span>
+                                <span class="desc">
+                                    HEAD OFFICE
+                                    <br>
+                                    TERRA  MONTE  S.A.
+                                    <br>
+                                    70, route d`Esch
+                                    <br>
+                                    L-1470 Luxembourg
+                                </span>
                             </li>
                             <li>
                                 <span class="title">Phone</span>
