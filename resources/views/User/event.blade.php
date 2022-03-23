@@ -1,10 +1,10 @@
 @extends('layouts.User.userLayout')
 @section('head')
     <style>
-        #events .vp-video-wrapper{
+        #events .player .vp-video-wrapper{
             border-radius: 10px !important;
         }
-        #events .player .vp-title{
+        #events .player vp-controls-wrapper .vp-title{
             display: none !important;
         }
     </style>
