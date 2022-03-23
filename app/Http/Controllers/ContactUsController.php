@@ -15,7 +15,7 @@ class ContactUsController extends Controller
     public function index()
     {
         $messages = ContactUs::paginate(15);
-        return view('admin.contactUs.index',compact('messages'));
+        return view('Admin.contactUs.index',compact('messages'));
     }
 
     /**
@@ -67,7 +67,7 @@ class ContactUsController extends Controller
     {
         $contactUs->status=1;
         $contactUs->save();
-        return view('admin.contactUs.show',compact('contactUs'));
+        return view('Admin.contactUs.show',compact('contactUs'));
     }
 
     /**
