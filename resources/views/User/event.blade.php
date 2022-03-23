@@ -9,9 +9,8 @@
                 <div class="entry-wrapper">
                     <div class="entry-single">
                         <div class="entry-header">
-                            <video controls>
-                                <source src="https://vimeo.com/691534464" type="video/mp4">
-                            </video>
+                            <iframe width="100%" height="400" src="https://player.vimeo.com/video/691534464">
+                            </iframe>
                         </div>
                         <div class="entry-content">
                             <ul class="meta-post list-unstyled pl-0 d-flex">
