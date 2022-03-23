@@ -7,11 +7,15 @@
         #events .player vp-controls-wrapper .vp-title{
             display: none !important;
         }
-        @media(max-width:700px){
+        @media(min-width:365px) and (max-width:700px){
+            iframe{
+                height:300px !important;
+            }
+        }
+        @media(max-width:364px){
             iframe{
                 height:100px !important;
             }
-
         }
     </style>
 @endsection
