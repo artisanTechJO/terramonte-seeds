@@ -160,9 +160,9 @@
         loop: true,
         spaceBetween: 0,
         autoplay: {
-            delay: 2000,
+            delay: 7000,
         },
-        speed: 2000,
+        speed: 7000,
         pagination: {
             el: '.swiper-pagination',
             clickable: true
