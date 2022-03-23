@@ -14,9 +14,9 @@
                         <h5 class="footer-title">Products</h5>
                         <div class="widget-wrapper">
                             <ul>
-                                <li><a href="product-leftsidebar.html">All</a></li>
-                                <li><a href="product-leftsidebar.html">New</a></li>
-                                <li><a href="product-leftsidebar.html">Spacial</a></li>
+                                <li><a href="{{url('/crops')}}">All</a></li>
+                                <li><a href="{{url('/new-crops')}}">New</a></li>
+                                <li><a href="{{url('/special-crops')}}">Spacial</a></li>
                             </ul>
                         </div>
                     </div>
@@ -27,9 +27,9 @@
                         <h5 class="footer-title">Useful Links</h5>
                         <div class="widget-wrapper">
                             <ul>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="about.html">Event's</a></li>
-                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="{{route('about-us.index')}}">About Us</a></li>
+                                <li><a href="{{route('events')}}">Event's</a></li>
+                                <li><a href="{{route('contact')}}">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -40,10 +40,11 @@
         <div class="footer-bottom">
             <div class="row">
                 <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
-                    <p class="copyright">Copyright &copy; 2021 <a href="#">Terramonte</a>. All Rights Reserved.</p>
+                    <p class="copyright">Copyright &copy; 2021 <a href="{{url('/')}}">Terramonte</a>. All Rights Reserved.</p>
                 </div>
-
             </div>
         </div>
     </div>
 </footer>
+
+
