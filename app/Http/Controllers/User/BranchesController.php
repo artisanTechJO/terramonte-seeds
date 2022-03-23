@@ -13,7 +13,7 @@ class BranchesController extends Controller
         $branches =Variance::where('product_id',$crops)->paginate(15);
         $crops = Product::where('id',$crops)->first();
 
-        return view('user.branches.index',compact('branches','crops'));
+        return view('User.Branches.index',compact('branches','crops'));
 
     }
 }
