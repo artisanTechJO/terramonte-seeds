@@ -27,7 +27,6 @@
 @endsection
 @section('content')
 <!-- about section start -->
-
     <div class="container">
         <div class="row justify-content-center mt-5" id="events">
             <div class="col-lg-9  main-content">
@@ -82,4 +81,11 @@
 
 <!-- about section end -->
 
+@endsection
+@section('scripts')
+    <script>
+        $(documnt).ready(function(){
+            $('#player').css('height','100%');
+        });
+    </script>
 @endsection
