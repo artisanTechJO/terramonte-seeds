@@ -8,7 +8,7 @@
                 <div class="col-lg-8 order-sm-last order-xs-last order-lg-first pr-xl-5">
                     <div class="about-content mb-4 mb-lg-0 pr-lg-5">
                         <h3 style="font-size: 25px">{{$about->title}}</h3>
-                        <h5>(CONTINOUSLY INNOVATING &CREATING)</h5>
+                        <h5 style="margin-bottom: 5px">(CONTINOUSLY INNOVATING &CREATING)</h5>
                         <p style="line-height:30px">{!!$about->description!!}</p>
                     </div>
                 </div>
