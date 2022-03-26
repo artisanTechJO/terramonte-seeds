@@ -55,6 +55,12 @@
             {
                 display: block !important;
             }
+            .footer-widget{
+                margin-top:12px;
+            }
+            .footer-widget .footer-title{
+                margin-bottom: 5px;
+            }
         }
 
     </style>
