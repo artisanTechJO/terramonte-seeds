@@ -11,7 +11,7 @@
     <div class="container product-container">
         <div class="row" style="margin-bottom: 50px">
             @foreach($branches as $branche)
-                <div class="col-6 col-md-3">
+                <div class="col-6 col-md-3" style="margin-bottom: 20px">
                     <div class="product-item">
                         <div class="product-thumb">
                             <img src="{{$branche->getMedia('image')->first()->getUrl()}}" style="height: 200px; width: 250px " alt="product">
