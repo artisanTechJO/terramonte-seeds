@@ -8,11 +8,15 @@
             display: none !important;
         }
         @media(min-width:365px) and (max-width:700px){
+            .entry-header{
+                height:265px;
+            }
             iframe{
                 border-radius: 10px;
             }
             .entry-header iframe{
                 height:100%;
+                width:100%;
             }
         }
         @media(max-width:364px){
