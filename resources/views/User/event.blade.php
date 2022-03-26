@@ -17,7 +17,6 @@
         }
         @media(max-width:364px){
             iframe{
-                height:450px !important;
                 border-radius: 10px;
             }
             .entry-header iframe{
