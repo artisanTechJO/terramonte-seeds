@@ -9,8 +9,10 @@
         }
         @media(min-width:365px) and (max-width:700px){
             iframe{
-                height:400px !important;
                 border-radius: 10px;
+            }
+            .entry-header iframe{
+                height:100%;
             }
         }
         @media(max-width:364px){
@@ -18,11 +20,15 @@
                 height:450px !important;
                 border-radius: 10px;
             }
+            .entry-header iframe{
+                height:100%;
+            }
         }
         .vp-center #player{
             height:400px !important;
             border-radius: 10px;
         }
+
     </style>
 @endsection
 @section('content')
@@ -33,7 +39,7 @@
                 <div class="entry-wrapper">
                     <div class="entry-single">
                         <div class="entry-header">
-                            <iframe  width="100%" height="100%" src="https://player.vimeo.com/video/691534464" style="border:none;border-radius: 15px">
+                            <iframe  width="100%" height="400" src="https://player.vimeo.com/video/691534464" style="border:none;border-radius: 15px">
                             </iframe>
                         </div>
                         <div class="entry-content">
