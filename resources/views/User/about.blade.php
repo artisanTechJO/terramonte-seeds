@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-lg-8 order-sm-last order-xs-last order-lg-first pr-xl-5">
                     <div class="about-content mb-4 mb-lg-0 pr-lg-5">
-                        <h3>{{$about->title}}</h3>
+                        <h3 style="font-size: 25px">{{$about->title}}</h3>
                         <p style="line-height:30px">{!!$about->description!!}</p>
                     </div>
                 </div>
