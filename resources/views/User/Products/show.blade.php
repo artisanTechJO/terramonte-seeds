@@ -19,6 +19,9 @@
         {
             height: 150px;
         }
+        #myCarousel{
+            width:100%;
+        }
         #carousel-thumbs {
             background: rgba(255,255,255,.3);
             bottom: 0;
