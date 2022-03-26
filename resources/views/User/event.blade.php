@@ -33,7 +33,7 @@
                 <div class="entry-wrapper">
                     <div class="entry-single">
                         <div class="entry-header">
-                            <iframe  width="100%" height="500" src="https://player.vimeo.com/video/691534464" style="border:none;border-radius: 15px">
+                            <iframe  width="100%" height="100%" src="https://player.vimeo.com/video/691534464" style="border:none;border-radius: 15px">
                             </iframe>
                         </div>
                         <div class="entry-content">
