@@ -5,6 +5,21 @@
         {
             margin-top:20px;
         }
+        .product-item{
+            margin-top:20px;
+        }
+        .product-item .product-thumb img{
+            width:100%;
+            height:200px;
+            background-size: cover;
+            background-position: center;
+
+        }
+        @media(min-width:300px) and (max-width:991px){
+            .product-item .product-thumb img{
+                height:150px;
+            }
+        }
     </style>
 @stop
 @section('content')
@@ -31,6 +46,7 @@
                             <div class="d-flex justify-content-between align-items-center">
                             </div>
                         </div>
+
                     </div>
                 </div>
             @endforeach
