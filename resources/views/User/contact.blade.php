@@ -58,7 +58,7 @@
                                     <br>
                                     +962799090378
                                     <br>
-                                    amman-jordan
+                                    Amman-Jordan
                                 </span>
                             </li>
 
