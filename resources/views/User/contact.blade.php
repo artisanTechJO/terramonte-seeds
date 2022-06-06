@@ -29,6 +29,15 @@
                                     L-1470 Luxembourg
                                 </span>
                             </li>
+                            <li>
+                                <span class="title">Customer Service</span>
+                                <span class="desc">
+                                    info@terramonterseeds.com
+                                    <br>
+                                    (whatsapp) +352691245087
+                                </span>
+                            </li>
+
 {{--                            <li>--}}
 {{--                                <span class="title">Phone</span>--}}
 {{--                                <span class="desc">+440 875369208 - Office <br> +440 353363114 - Fax</span>--}}
