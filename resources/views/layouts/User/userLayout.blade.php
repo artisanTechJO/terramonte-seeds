@@ -63,6 +63,9 @@
             }
         }
 
+        .player .vp-title{
+            display: none !important;
+        }
     </style>
     @yield('head')
 </head>
