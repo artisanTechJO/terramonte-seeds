@@ -45,6 +45,12 @@
                                     +352691293029
                                 </span>
                             </li>
+                            <li>
+                                <span class="title">International Marketing Manager</span>
+                                <span class="desc">
+                                    carlo@terramonteseeds.com
+                                </span>
+                            </li>
 
 {{--                            <li>--}}
 {{--                                <span class="title">Phone</span>--}}
