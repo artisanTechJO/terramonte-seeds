@@ -54,7 +54,7 @@
                             <li>
                                 <span class="title">Regional Manager Africa and Asia </span>
                                 <span class="desc">
-                                    carlo@terramonteseeds.com
+                                    kh@terramonteseeds.com
                                 </span>
                             </li>
 
