@@ -55,6 +55,8 @@
                                 <span class="title">Regional Manager Africa and Asia </span>
                                 <span class="desc">
                                     kh@terramonteseeds.com
+                                    <br>
+                                    +962799090378
                                 </span>
                             </li>
 
