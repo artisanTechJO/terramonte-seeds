@@ -30,19 +30,19 @@
                                 </span>
                             </li>
                             <li>
-                                <span class="title">Customer Service</span>
-                                <span class="desc">
-                                    info@terramonterseeds.com
-                                    <br>
-                                    (whatsapp) +352691245087
-                                </span>
-                            </li>
-                            <li>
                                 <span class="title">General Manager</span>
                                 <span class="desc">
                                     liem@terramonteseeds.com
                                     <br>
                                     +352691293029
+                                </span>
+                            </li>
+                            <li>
+                                <span class="title">Customer Service</span>
+                                <span class="desc">
+                                    info@terramonterseeds.com
+                                    <br>
+                                    (whatsapp) +352691245087
                                 </span>
                             </li>
                             <li>
