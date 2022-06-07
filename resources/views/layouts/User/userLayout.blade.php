@@ -26,7 +26,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="{{ asset('User/User/assets/images/favicon.png') }}" />
+    <link rel="shortcut icon" type="image/png" href="/User/assets/images/TmLogo2.png" />
     <link rel="stylesheet" href="{{ asset('User/assets/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('User/assets/css/all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('User/assets/css/animate.css') }}">
