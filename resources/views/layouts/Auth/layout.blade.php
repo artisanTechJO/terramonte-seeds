@@ -27,7 +27,7 @@
     <link href="{{asset('Admin/assets/vendor/jquery-nice-select/css/nice-select.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('Admin/assets/vendor/nouislider/nouislider.min.css')}}">
     <!-- Style css -->
-    <link href="{{asset('Admin/assets/css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('Admin/assets/css/style.css?v=3')}}" rel="stylesheet">
     <link rel="stylesheet" href="sweetalert2.min.css">
 
 
