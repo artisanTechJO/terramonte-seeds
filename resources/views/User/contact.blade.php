@@ -32,6 +32,8 @@
                             <li>
                                 <span class="title">General Manager</span>
                                 <span class="desc">
+                                    Liem Nguyen
+                                    <br>
                                     liem@terramonteseeds.com
                                     <br>
                                     +352691293029
