@@ -7,6 +7,26 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    <meta charset="UTF-8">
+    <meta content='worldwide' name='coverage' />
+    <meta content='ar' http-equiv='content-language' />
+    <meta content='luxembourg' name='geo.country' />
+    <meta content='en_En' property='og:locale' />
+    <meta content='ar_En' property='og:locale:alternate' />
+    <meta content='luxembourg' name='geo.placename' />
+    <meta content='Global' name='distribution' />
+    <meta content='all' name='audience' />
+    <meta content='all' name='robots' />
+    <meta content='index,follow' name='robots' />
+    <meta content='General' name='rating' />
+    <meta content='5 days' name='revisit' />
+    <meta content='5 days' name='revisit-after' />
+    <meta content='document' name='resource-type' />
+    <meta content='IE=edge' http-equiv='X-UA-Compatible' />
+    <meta content='Terramonte Seeds' name='Author' />
+    <meta content='general' name='rating' />
+    <meta content='blogger' name='generator' />
+
     <title>Terramonte Seeds</title>
 
 
