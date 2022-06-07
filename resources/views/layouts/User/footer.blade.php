@@ -40,7 +40,7 @@
         <div class="footer-bottom">
             <div class="row">
                 <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
-                    <p class="copyright">Copyright &copy; 2021 <a href="{{url('/')}}">Terramonte</a>. All Rights Reserved.</p>
+                    <p class="copyright">Copyright &copy; 2022 <a href="{{url('/')}}">Terramonte</a>. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
