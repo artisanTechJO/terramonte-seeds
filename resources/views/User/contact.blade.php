@@ -56,7 +56,7 @@
                                 </span>
                             </li>
                             <li>
-                                <span class="title">Regional Manager Africa and Asia </span>
+                                <span class="title">Regional Manager Middle East And Africa </span>
                                 <span class="desc">
                                       Khalil Abu Awad
                                     <br>
