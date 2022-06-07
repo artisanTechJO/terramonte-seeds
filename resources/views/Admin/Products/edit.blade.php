@@ -50,7 +50,7 @@
                                         </div>
                                         <div class="col-lg-6">
                                             <label class="form-label">Crops Cover Image</label>
-                                            <input type="file"  name="cover_image" class="form-control input-rounded" placeholder="input-rounded">
+                                            <input type="file"  name="image" class="form-control input-rounded" placeholder="input-rounded">
 {{--                                            <a href="{{$product->getMedia('cover_image')->first()->getUrl()}}"><img src="{{$product->getMedia('cover_image')->first()->getUrl()}}" width="200" alt=""></a>--}}
                                         </div>
                                     </div>
