@@ -13,9 +13,9 @@
             @foreach($branches as $branche)
                 <div class="col-6 col-md-3" style="margin-bottom: 20px">
                     <div class="product-item">
-                        <div class="product-thumb">
-                            <img src="{{$branche->getMedia('image')->first()->getUrl()}}" style="height: 200px; width: 250px " alt="product">
-                        </div>
+{{--                        <div class="product-thumb">--}}
+{{--                            <img src="{{$branche->getMedia('image')->first()->getUrl()}}" style="height: 200px; width: 250px " alt="product">--}}
+{{--                        </div>--}}
                         <div class="product-content">
                             <h6><a
                                     @switch($crops->type)
