@@ -40,7 +40,7 @@
                             <li>
                                 <span class="title">Customer Service</span>
                                 <span class="desc">
-                                    info@terramonterseeds.com
+                                    info@terramonteseeds.com
                                     <br>
                                     (whatsapp) +352691245087
                                 </span>
@@ -49,6 +49,8 @@
                                 <span class="title">International Marketing Manager</span>
                                 <span class="desc">
                                     carlo@terramonteseeds.com
+                                      <br>
+                                    +352691244731
                                 </span>
                             </li>
                             <li>
