@@ -56,6 +56,8 @@
                             <li>
                                 <span class="title">Regional Manager Africa and Asia </span>
                                 <span class="desc">
+                                      Khalil Abu Awad
+                                    <br>
                                     kh@terramonteseeds.com
                                     <br>
                                     +962799090378
