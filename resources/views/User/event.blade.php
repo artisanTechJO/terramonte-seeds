@@ -37,7 +37,19 @@
 @section('content')
 <!-- about section start -->
     <div class="container">
+        <div class="row justify-content-center mt-5" id="events">
+            <div class="col-lg-9  main-content">
+                <div class="entry-wrapper">
+                    <div class="entry-single">
+                        <div class="entry-header">
 
+                            <iframe  width="100%" height="400" src="https://player.vimeo.com/video/717629889?h=d603562edc&amp;" style="border:none;border-radius: 15px">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         @foreach($events as $event)
             <div class="row justify-content-center mt-5">
                 <div class="col-lg-9  main-content">
@@ -63,19 +75,6 @@
                 </div>
             </div>
         @endforeach
-            <div class="row justify-content-center mt-5" id="events">
-                <div class="col-lg-9  main-content">
-                    <div class="entry-wrapper">
-                        <div class="entry-single">
-                            <div class="entry-header">
-
-                                <iframe  width="100%" height="400" src="https://player.vimeo.com/video/717629889?h=d603562edc&amp;" style="border:none;border-radius: 15px">
-                                </iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
     </div>
 
 <!-- about section end -->
