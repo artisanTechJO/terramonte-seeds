@@ -72,7 +72,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset('User/assets/css/slick.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('User/assets/css/slick-theme.css')}}">
     <link rel="stylesheet" href="{{asset('User/assets/css/custom-select.css')}}">
-    <link rel="stylesheet" href="{{asset('User/assets/css/style.css?v=4')}}">
+    <link rel="stylesheet" href="{{asset('User/assets/css/style.css?v=5')}}">
     <link rel="stylesheet" href="{{asset('User/assets/css/custom.css')}}">
     <style>
         .tm-cover
