@@ -47,7 +47,7 @@
 
     <div class="header-logo">
         <a class="site-logo" href="index.html">
-            <img src="{{asset('temp/images/logo.svg')}}" alt="Homepage">
+{{--            <img src="{{asset('temp/images/logo.svg')}}" alt="Homepage">--}}
         </a>
     </div>
 
