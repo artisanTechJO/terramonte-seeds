@@ -55,9 +55,20 @@
                 <div class="col-lg-9  main-content">
                     <div class="entry-wrapper">
                         <div class="entry-single">
-                            <div class="entry-header">
-                                <img src="{{$event->getMedia('event')->first()->getUrl()}}" alt="thumb">
-                            </div>
+                            <section class="slider-banner" style="    height: 540px;">
+                                <div class="banner-slider-container">
+                                    <div class="swiper-wrapper">
+                                        @foreach($event->getMedia('event') as $event_image)
+                                            <div class="swiper-slide">
+                                                <div class="banner-content-area">
+                                                    <div class="slider-image slider-image2" style="background-image: url('{{$event_image->getUrl()}}')"></div>
+                                                </div>
+                                            </div>
+                                        @endforeach
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </section>
                             <div class="entry-content">
                                 <ul class="meta-post list-unstyled pl-0 d-flex">
                                     <li>

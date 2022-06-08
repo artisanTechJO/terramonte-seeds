@@ -32,9 +32,9 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <label class="form-label">Image</label>
-                                        <input type="file" name="image_event" class="form-control input-rounded" placeholder="input-rounded">
+                                        <input type="file" name="image_event[]" multiple class="form-control input-rounded" placeholder="input-rounded">
 
-                                        <img src="{{$event->getMedia('event')[0]->getUrl()}}" style="width:100px;height:100px;margin-top:10px" alt="">
+{{--                                        <img src="{{$event->getMedia('event')[0]->getUrl()}}" style="width:100px;height:100px;margin-top:10px" alt="">--}}
                                     </div>
                                     <div class="col-lg-6">
                                         <label class="form-label">Status</label>
