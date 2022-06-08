@@ -27,10 +27,10 @@
 
     <meta charset="UTF-8">
     <meta content='worldwide' name='coverage' />
-    <meta content='ar' http-equiv='content-language' />
+    <meta content='en' http-equiv='content-language' />
     <meta content='luxembourg' name='geo.country' />
     <meta content='en_En' property='og:locale' />
-    <meta content='ar_En' property='og:locale:alternate' />
+    <meta content='en_En' property='og:locale:alternate' />
     <meta content='luxembourg' name='geo.placename' />
     <meta content='Global' name='distribution' />
     <meta content='all' name='audience' />
@@ -44,9 +44,9 @@
     <meta content='Terramonte Seeds' name='Author' />
     <meta content='general' name='rating' />
     <meta content='blogger' name='generator' />
-    <meta name="description" content="Terra monte co. focus on advanced hybrid vegetable seeds, looking for the added value of farmers in choosing advance sophisticated  and divers varieties ,providing guidance , permenant support  for their long term prosperity .">
+    <meta name="description" content="Terramonte,Terra monte co. focus on advanced hybrid vegetable seeds, looking for the added value of farmers in choosing advance sophisticated  and divers varieties ,providing guidance , permenant support  for their long term prosperity .">
 
-    <meta name="keywords" content="Seeds, Plants, Vegetable, Seeds,Company,Terramonte"/>
+    <meta name="keywords" content="Seeds, Plants, Vegetable, Seeds,Company,Terramonte,Terra monte,Terramonte Seeds"/>
 
 
     <!-- Fonts -->
