@@ -109,7 +109,6 @@
 </head>
 
 <body id="top-page" class="sticky-sidebar-home">
-<h1 style="visibility: hidden">Terramonte Seeds</h1>
         <!-- header section start -->
         @include('layouts.User.header')
         <!-- header section end -->
@@ -120,6 +119,8 @@
         <!-- footer section -->
         @include('layouts.User.footer')
         <!-- footer section -->
+
+        <h1 style="visibility: hidden;margin: 0px;padding: 0px">Terramonte Seeds</h1>
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
