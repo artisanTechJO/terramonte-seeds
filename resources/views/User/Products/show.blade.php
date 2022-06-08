@@ -73,7 +73,7 @@
         .style-slider-img{
             width: 100% !important;
             background-size: cover;
-            height: 300px;
+            height: 400px;
         }
         .hide-thumb{
             background: #ddd;
