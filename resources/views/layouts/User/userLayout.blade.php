@@ -109,7 +109,7 @@
 </head>
 
 <body id="top-page" class="sticky-sidebar-home">
-<h1 style="visibility: hidden">Terramonte Seeds</h1>
+<h1>Terramonte Seeds</h1>
         <!-- header section start -->
         @include('layouts.User.header')
         <!-- header section end -->
