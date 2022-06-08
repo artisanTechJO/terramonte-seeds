@@ -43,7 +43,7 @@
     <meta content='Terramonte Seeds' name='Author' />
     <meta content='general' name='rating' />
     <meta content='blogger' name='generator' />
-    <meta name="description" content="Terramonte,Terra monte co. focus on advanced hybrid vegetable seeds, looking for the added value of farmers in choosing advance sophisticated  and divers varieties ,providing guidance , permenant support  for their long term prosperity .">
+    <meta name="description" content="Terramonte monte focus on advanced hybrid vegetable seeds, looking for the added value of farmers in choosing advance seeds">
 
     <meta name="keywords" content="Seeds, Plants, Vegetable, Seeds,Company,Terramonte,Terra monte,Terramonte Seeds"/>
 
