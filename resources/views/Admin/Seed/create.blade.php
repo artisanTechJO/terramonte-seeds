@@ -1,7 +1,7 @@
 @extends('layouts.Admin.adminLayout')
 
 @section('content')
-    <div class="content-body">
+    <div class="content-body" style="margin-bottom: 400px">
         <div class="container-fluid">
             <div class="row invoice-card-row">
                 <div class="col-xl-12 col-lg-12">
