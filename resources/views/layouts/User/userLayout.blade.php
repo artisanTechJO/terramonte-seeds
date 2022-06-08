@@ -28,9 +28,23 @@
     <meta content='blogger' name='generator' />
     <meta name="description" content="Terra monte co. focus on advanced hybrid vegetable seeds, looking for the added value of farmers in choosing advance sophisticated  and divers varieties ,providing guidance , permenant support  for their long term prosperity .">
 
-
     <title>Terramonte Seeds</title>
+    <meta name="title" content="Terramonte Seeds">
+    <meta name="description" content="Terra monte co. focus on advanced hybrid vegetable seeds, looking for the added value of farmers in choosing advance sophisticated  and divers varieties ,providing guidance , permenant support  for their long term prosperity .">
 
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://terramonteseeds.com/">
+    <meta property="og:title" content="Terramonte Seeds">
+    <meta property="og:description" content="Terra monte co. focus on advanced hybrid vegetable seeds, looking for the added value of farmers in choosing advance sophisticated  and divers varieties ,providing guidance , permenant support  for their long term prosperity .">
+    <meta property="og:image" content="">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://terramonteseeds.com/">
+    <meta property="twitter:title" content="Terramonte Seeds">
+    <meta property="twitter:description" content="Terra monte co. focus on advanced hybrid vegetable seeds, looking for the added value of farmers in choosing advance sophisticated  and divers varieties ,providing guidance , permenant support  for their long term prosperity .">
+    <meta property="twitter:image" content="">
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
