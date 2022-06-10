@@ -47,9 +47,9 @@
                         <li><a href="{{url('/')}}">Home</a></li>
                         <li><a href="{{route('about-us.index')}}">About Us</a></li>
                         <li><a href="{{route('events')}}">Events</a></li>
-                        <li><a href="{{url('/crops')}}">crops</a></li>
-                        <li><a href="{{url('/new-crops')}}">New crops</a></li>
-                        <li><a href="{{url('/special-crops')}}">Special crops</a></li>
+                        <li><a href="{{url('/crops')}}">Crops</a></li>
+                        <li><a href="{{url('/new-crops')}}">New Crops</a></li>
+                        <li><a href="{{url('/special-crops')}}">Special Crops</a></li>
                         <li><a href="{{route('contact')}}">Contact Us</a></li>
                     </ul>
                 </div>
