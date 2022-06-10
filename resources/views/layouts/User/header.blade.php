@@ -46,7 +46,7 @@
                     <ul class="menu d-xl-flex flex-wrap pl-0 list-unstyled">
                         <li><a href="{{url('/')}}">Home</a></li>
                         <li><a href="{{route('about-us.index')}}">About Us</a></li>
-                        <li><a href="{{route('events')}}">Event's</a></li>
+                        <li><a href="{{route('events')}}">Events</a></li>
                         <li><a href="{{url('/crops')}}">crops</a></li>
                         <li><a href="{{url('/new-crops')}}">New crops</a></li>
                         <li><a href="{{url('/special-crops')}}">Special crops</a></li>
@@ -70,7 +70,7 @@
                     <ul class="menu d-xl-flex flex-wrap list-unstyled">
                         <li><a href="{{url('/')}}">Home</a></li>
                         <li><a href="{{route('about-us.index')}}">About Us</a></li>
-                        <li><a href="{{route('events')}}">Event's</a></li>
+                        <li><a href="{{route('events')}}">Events</a></li>
                         <li><a href="{{url('/crops')}}">crops</a></li>
                         <li><a href="{{url('/new-crops')}}">New crops</a></li>
                         <li><a href="{{url('/special-crops')}}">Special crops</a></li>
