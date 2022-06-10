@@ -38,7 +38,7 @@
 <!-- about section start -->
     <div class="container">
         <div class="row justify-content-center mt-5" id="events">
-            <div class="col-lg-9  main-content">
+            <div class="col-lg-6  main-content">
                 <div class="entry-wrapper">
                     <div class="entry-single">
                         <div class="entry-header">
@@ -48,33 +48,54 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row justify-content-center mt-5" id="events">
-            <div class="col-lg-9  main-content">
+            <div class="col-lg-6  main-content">
                 <div class="entry-wrapper">
                     <div class="entry-single">
                         <div class="entry-header">
                             <video
-                            id="my-video"
-                            class="video-js"
-                            controls
-                            preload="auto"
-                            height="350px"
-                            poster="MY_VIDEO_POSTER.jpg"
-                            data-setup="{}"
-                            style="width: 100%"
+                                id="my-video"
+                                class="video-js"
+                                controls
+                                preload="auto"
+                                height="350px"
+                                poster="MY_VIDEO_POSTER.jpg"
+                                data-setup="{}"
+                                style="width: 100%"
                             >
-                            <source src="/terramonte project.mp4" type="video/mp4" />
-                            <source src="/terramonte project.mp4" type="video/webm" />
+                                <source src="/terramonte project.mp4" type="video/mp4" />
+                                <source src="/terramonte project.mp4" type="video/webm" />
                             </video>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+{{--        <div class="row justify-content-center mt-5" id="events">--}}
+{{--            <div class="col-lg-6  main-content">--}}
+{{--                <div class="entry-wrapper">--}}
+{{--                    <div class="entry-single">--}}
+{{--                        <div class="entry-header">--}}
+{{--                            <video--}}
+{{--                            id="my-video"--}}
+{{--                            class="video-js"--}}
+{{--                            controls--}}
+{{--                            preload="auto"--}}
+{{--                            height="350px"--}}
+{{--                            poster="MY_VIDEO_POSTER.jpg"--}}
+{{--                            data-setup="{}"--}}
+{{--                            style="width: 100%"--}}
+{{--                            >--}}
+{{--                            <source src="/terramonte project.mp4" type="video/mp4" />--}}
+{{--                            <source src="/terramonte project.mp4" type="video/webm" />--}}
+{{--                            </video>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
         @foreach($events as $event)
             <div class="row justify-content-center mt-5">
-                <div class="col-lg-9  main-content">
+                <div class="col-lg-12  main-content">
                     <div class="entry-wrapper">
                         <div class="entry-single">
                             <section class="slider-banner" style="    height: 540px;">
