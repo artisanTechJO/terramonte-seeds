@@ -74,6 +74,7 @@
     <link rel="stylesheet" href="{{asset('User/assets/css/custom-select.css')}}">
     <link rel="stylesheet" href="{{asset('User/assets/css/style.css?v=5')}}">
     <link rel="stylesheet" href="{{asset('User/assets/css/custom.css')}}">
+    <link href="https://vjs.zencdn.net/7.19.2/video-js.css" rel="stylesheet" />
     <style>
         .tm-cover
         {
@@ -137,6 +138,8 @@
 <script src='{{asset('User/assets/js/theia-sticky-sidebar.js')}}'></script>
 <script src='{{asset('User/assets/js/functions.js')}}'></script>
 <script src='{{asset('User/assets/js/custom.js')}}'></script>
+<script src="https://vjs.zencdn.net/7.19.2/video.min.js"></script>
+
 @yield('scripts')
 
 </body>

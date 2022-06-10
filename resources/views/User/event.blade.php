@@ -50,6 +50,29 @@
                 </div>
             </div>
         </div>
+        <div class="row justify-content-center mt-5" id="events">
+            <div class="col-lg-9  main-content">
+                <div class="entry-wrapper">
+                    <div class="entry-single">
+                        <div class="entry-header">
+                            <video
+                            id="my-video"
+                            class="video-js"
+                            controls
+                            preload="auto"
+                            width="640"
+                            height="264"
+                            poster="MY_VIDEO_POSTER.jpg"
+                            data-setup="{}"
+                            >
+                            <source src="/terramonte project.mp4" type="video/mp4" />
+                            <source src="/terramonte project.mp4" type="video/webm" />
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         @foreach($events as $event)
             <div class="row justify-content-center mt-5">
                 <div class="col-lg-9  main-content">
