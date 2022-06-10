@@ -166,8 +166,15 @@
 @endsection
 @section('scripts')
     <script>
-        $(documnt).ready(function(){
-            $('#player').css('height','100%');
+        // $(documnt).ready(function(){
+        //     $('#player').css('height','100%');
+        // });
+
+        var player = videojs('player');
+
+
+        player.spriteThumbnails({
+            url: '{{asset('/User/assets/images/TmLogo2.png')}}',
         });
     </script>
 @endsection
