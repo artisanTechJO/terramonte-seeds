@@ -58,48 +58,43 @@
                             <section class="slider-banner" style="    height: 540px;">
                                 <div class="banner-slider-container">
                                     <div class="swiper-wrapper">
-{{--                                        @foreach($event->getMedia('event') as $event_image)--}}
-{{--                                            <div class="swiper-slide">--}}
-{{--                                                <div class="banner-content-area">--}}
-{{--                                                    <div class="slider-image slider-image2" style="background-image: url('{{$event_image->getUrl()}}');background-size: cover !important;"></div>--}}
-{{--                                                </div>--}}
+                                        @foreach($event->getMedia('event') as $event_image)
+                                            <div class="swiper-slide">
+                                                <div class="banner-content-area">
+                                                    <div class="slider-image slider-image2" style="background-image: url('{{$event_image->getUrl()}}');background-size: cover !important;"></div>
+                                                </div>
+                                            </div>
+                                        @endforeach
+{{--                                        <div class="swiper-slide">--}}
+{{--                                            <div class="banner-content-area">--}}
+{{--                                                <div class="slider-image slider-image2" style="background-image: url('https://omablear.sirv.com/Images/_DSC7365.jpg');background-size: cover !important;"></div>--}}
 {{--                                            </div>--}}
-{{--                                        @endforeach--}}
-                                        <div class="swiper-slide">
-                                            <div class="banner-content-area">
-                                                <div class="slider-image slider-image2" style="background-image: url('https://omablear.sirv.com/Images/_DSC7365.jpg');background-size: cover !important;"></div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="banner-content-area">
-                                                <div class="slider-image slider-image2" style="background-image: url('https://omablear.sirv.com/Images/_DSC7344.jpg');background-size: cover !important;"></div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="banner-content-area">
-                                                <div class="slider-image slider-image2" style="background-image: url('https://omablear.sirv.com/Images/_DSC7343.jpg');background-size: cover !important;"></div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="banner-content-area">
-                                                <div class="slider-image slider-image2" style="background-image: url('https://omablear.sirv.com/Images/_DSC2408.jpg');background-size: cover !important;"></div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="banner-content-area">
-                                                <div class="slider-image slider-image2" style="background-image: url('https://omablear.sirv.com/Images/_DSC7337.jpg');background-size: cover !important;"></div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="banner-content-area">
-                                                <div class="slider-image slider-image2" style="background-image: url('https://omablear.sirv.com/Images/_DSC2391.jpg');background-size: cover !important;"></div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="banner-content-area">
-                                                <div class="slider-image slider-image2" style="background-image: url('https://omablear.sirv.com/Images/_DSC2391.jpg');background-size: cover !important;"></div>
-                                            </div>
-                                        </div>
+{{--                                        </div>--}}
+{{--                                        <div class="swiper-slide">--}}
+{{--                                            <div class="banner-content-area">--}}
+{{--                                                <div class="slider-image slider-image2" style="background-image: url('https://omablear.sirv.com/Images/_DSC7344.jpg');background-size: cover !important;"></div>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="swiper-slide">--}}
+{{--                                            <div class="banner-content-area">--}}
+{{--                                                <div class="slider-image slider-image2" style="background-image: url('https://omablear.sirv.com/Images/_DSC7343.jpg');background-size: cover !important;"></div>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="swiper-slide">--}}
+{{--                                            <div class="banner-content-area">--}}
+{{--                                                <div class="slider-image slider-image2" style="background-image: url('https://omablear.sirv.com/Images/_DSC2408.jpg');background-size: cover !important;"></div>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="swiper-slide">--}}
+{{--                                            <div class="banner-content-area">--}}
+{{--                                                <div class="slider-image slider-image2" style="background-image: url('https://omablear.sirv.com/Images/_DSC7337.jpg');background-size: cover !important;"></div>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="swiper-slide">--}}
+{{--                                            <div class="banner-content-area">--}}
+{{--                                                <div class="slider-image slider-image2" style="background-image: url('https://omablear.sirv.com/Images/_DSC2391.jpg');background-size: cover !important;"></div>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
                                     </div>
                                     <div class="swiper-pagination"></div>
                                 </div>
