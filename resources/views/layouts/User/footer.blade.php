@@ -28,7 +28,7 @@
                         <div class="widget-wrapper">
                             <ul>
                                 <li><a href="{{route('about-us.index')}}">About Us</a></li>
-                                <li><a href="{{route('events')}}">Event's</a></li>
+                                <li><a href="{{route('events')}}">Events</a></li>
                                 <li><a href="{{route('contact')}}">Contact Us</a></li>
                             </ul>
                         </div>
