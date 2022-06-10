@@ -174,7 +174,7 @@
 
 
         player.spriteThumbnails({
-            url: '{{asset('/User/assets/images/TmLogo2.png')}}',
+            url: 'https://terramonteseeds.com/User/assets/images/TmLogo2.png',
             width: 160,
             height: 90
         });
