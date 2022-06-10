@@ -1,128 +1,144 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
+<!doctype html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-
-    <!--- basic page needs
-    ================================================== -->
     <meta charset="utf-8">
-    <title>Terramonte Seeds</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- mobile specific metas
-    ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="{{asset('temp/css/base.css')}}">
-    <link rel="stylesheet" href="{{asset('temp/css/vendor.css')}}">
-    <link rel="stylesheet" href="{{asset('temp/css/main.css')}}">
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <!-- script
-    ================================================== -->
-    <script src="{{asset('temp/js/modernizr.js')}}"></script>
-    <script defer src="{{asset('temp/js/fontawesome/all.min.js')}}"></script>
+    <title>Terramonte Seeds</title>
+    <meta name="title" content="Terramonte Seeds">
 
-    <!-- favicons
-    ================================================== -->
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://terramonteseeds.com/">
+    <meta property="og:title" content="Terramonte Seeds">
+    <meta property="og:description" content="Terra monte co. focus on advanced hybrid vegetable seeds, looking for the added value of farmers in choosing advance sophisticated  and divers varieties ,providing guidance , permenant support  for their long term prosperity .">
+    <meta property="og:image" content="">
 
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://terramonteseeds.com/">
+    <meta property="twitter:title" content="Terramonte Seeds">
+    <meta property="twitter:description" content="Terra monte co. focus on advanced hybrid vegetable seeds, looking for the added value of farmers in choosing advance sophisticated  and divers varieties ,providing guidance , permenant support  for their long term prosperity .">
+    <meta property="twitter:image" content="">
+
+    <meta charset="UTF-8">
+    <meta content='worldwide' name='coverage' />
+    <meta content='en' http-equiv='content-language' />
+    <meta content='luxembourg' name='geo.country' />
+    <meta content='en_En' property='og:locale' />
+    <meta content='en_En' property='og:locale:alternate' />
+    <meta content='luxembourg' name='geo.placename' />
+    <meta content='Global' name='distribution' />
+    <meta content='all' name='audience' />
+    <meta content='all' name='robots' />
+    <meta content='index,follow' name='robots' />
+    <meta content='General' name='rating' />
+    <meta content='5 days' name='revisit' />
+    <meta content='5 days' name='revisit-after' />
+    <meta content='document' name='resource-type' />
+    <meta content='IE=edge' http-equiv='X-UA-Compatible' />
+    <meta content='Terramonte Seeds' name='Author' />
+    <meta content='general' name='rating' />
+    <meta content='blogger' name='generator' />
+    <meta name="description" content="Terramonte monte focus on advanced hybrid vegetable seeds, looking for the added value of farmers in choosing advance seeds">
+
+    <meta name="keywords" content="Seeds, Plants, Vegetable, Seeds,Company,Terramonte,Terra monte,Terramonte Seeds"/>
+
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CL1L1YRSQ2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-CL1L1YRSQ2');
+    </script>
+
+    <!-- Styles -->
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="/User/assets/images/TmLogo2.png" />
+    <link rel="stylesheet" href="{{ asset('User/assets/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('User/assets/css/all.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('User/assets/css/animate.css') }}">
+    <link rel="stylesheet" href="{{asset('User/assets/css/swiper.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('User/assets/css/slick.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('User/assets/css/slick-theme.css')}}">
+    <link rel="stylesheet" href="{{asset('User/assets/css/custom-select.css')}}">
+    <link rel="stylesheet" href="{{asset('User/assets/css/style.css?v=5')}}">
+    <link rel="stylesheet" href="{{asset('User/assets/css/custom.css')}}">
+    <style>
+        .tm-cover
+        {
+            background: #fff;
+            width: 100%;
+            background-image: url("{{asset('User/assets/images/0104.png')}}");
+            height: 58px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .tox :not(svg):not(rect),.tox
+        {
+            display: none !important;
+        }
+        @media only screen and (max-width: 700px) {
+            .header-top
+            {
+                display: block !important;
+            }
+            .footer-widget{
+                margin-top:12px;
+            }
+            .footer-widget .footer-title{
+                margin-bottom: 5px;
+            }
+        }
+
+        .player .vp-title{
+            display: none !important;
+        }
+    </style>
+    @yield('head')
 </head>
 
-<body id="top">
-
-<!-- preloader
-================================================== -->
-<div id="preloader">
-    <div id="loader" class="dots-fade">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
+<body id="top-page" class="sticky-sidebar-home">
+<!-- header section start -->
+@include('layouts.User.header')
+<!-- header section end -->
+<div class="page-layout home-layout">
+    @include('layouts.User.sideMenu')
+    @yield('content')
 </div>
+<!-- footer section -->
+@include('layouts.User.footer')
+<!-- footer section -->
 
-<!-- site header
-================================================== -->
-<header class="s-header">
+<h1 style="visibility: hidden;margin: 0px;padding: 0px">Terramonte Seeds</h1>
 
-    <div class="header-logo">
-        <a class="site-logo" href="index.html">
-{{--            <img src="{{asset('temp/images/logo.svg')}}" alt="Homepage">--}}
-        </a>
-    </div>
-
-    <div class="header-email">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 12l11 3.1 7-8.1-8.156 5.672-4.312-1.202 15.362-7.68-3.974 14.57-3.75-3.339-2.17 2.925v-.769l-2-.56v7.383l4.473-6.031 4.527 4.031 6-22z"/></svg>
-        <a href="mailto:#0">info@terramnoteseeds.com</a>
-    </div>
-
-</header> <!-- end s-header -->
-
-
-<!-- intro
-================================================== -->
-<section id="intro" class="s-intro s-intro--static">
-
-    <div class="grid-overlay">
-        <div></div>
-    </div>
-
-    <div class="row intro-content">
-
-        <div class="column">
-
-            <div class="intro-content__text">
-
-                <h3>
-                    Under Construction
-                </h3>
-
-                <h1>
-                    Get ready everyone. <br>
-                    We are currently <br>
-                    working on a super <br>
-                    awesome website.
-                </h1>
-
-            </div> <!-- end intro-content__text -->
-
-            <div class="intro-content__bottom">
-
-                <div class="intro-content__counter-wrap">
-                    <h4>Launching in</h4>
-
-                    <div class="counter">
-                        <div class="counter__time days">
-                            4
-                            <span>D</span>
-                        </div>
-                        <div class="counter__time hours">
-                            14
-                            <span>H</span>
-                        </div>
-                        <div class="counter__time minutes">
-                            50
-                            <span>M</span>
-                        </div>
-                        <div class="counter__time seconds">
-                            40
-                            <span>S</span>
-                        </div>
-                    </div>  <!-- end counter -->
-                </div> <!-- end intro-content__counter-wrap -->
-
-            </div> <!-- end intro-content__bottom -->
-
-        </div> <!-- end column -->
-
-    </div> <!--  end intro-content -->
-
-</section> <!-- end s-intro -->
-
-<!-- Java Script
-================================================== -->
-<script src="{{asset('temp/js/jquery-3.2.1.min.js')}}"></script>
-<script src="{{asset('temp/js/plugins.js')}}"></script>
-<script src="{{asset('temp/js/main.js')}}"></script>
+<!-- Scripts -->
+<script src="{{ asset('js/app.js') }}" defer></script>
+<script src='{{asset('User/assets/js/jquery.min.js')}}'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/2.2.3/jquery.elevatezoom.min.js"></script>
+<script src='{{asset('User/assets/js/bootstrap.bundle.min.js')}}'></script>
+<script src='{{asset('User/assets/js/swiper.min.js')}}'></script>
+<script src="{{asset('User/assets/js/slick.js')}}"></script>
+<script src='{{asset('User/assets/js/jquery-easeing.min.js')}}'></script>
+<script src='{{asset('User/assets/js/scroll-nav.js')}}'></script>
+<script src='{{asset('User/assets/js/custom-select.js')}}'></script>
+<script src='{{asset('User/assets/js/fly-cart.js')}}'></script>
+<script src='{{asset('User/assets/js/multi-countdown.js')}}'></script>
+<script src='{{asset('User/assets/js/theia-sticky-sidebar.js')}}'></script>
+<script src='{{asset('User/assets/js/functions.js')}}'></script>
+<script src='{{asset('User/assets/js/custom.js')}}'></script>
+@yield('scripts')
 
 </body>
+
+</html>
