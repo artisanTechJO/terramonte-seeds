@@ -42,7 +42,6 @@
                 <div class="entry-wrapper">
                     <div class="entry-single">
                         <div class="entry-header">
-
                             <iframe  width="100%" height="400" src="https://player.vimeo.com/video/717629889?h=d603562edc&amp;" style="border:none;border-radius: 15px">
                             </iframe>
                         </div>
@@ -60,10 +59,10 @@
                             class="video-js"
                             controls
                             preload="auto"
-                            width="640"
                             height="264"
                             poster="MY_VIDEO_POSTER.jpg"
                             data-setup="{}"
+                            style="width: 100%"
                             >
                             <source src="/terramonte project.mp4" type="video/mp4" />
                             <source src="/terramonte project.mp4" type="video/webm" />
