@@ -56,7 +56,7 @@
                 {{$products->links()}}
             @else
                 <div class="alert alert-primary" style="background: #6BD640;color:#fff;border:1px solid #fff;">
-                    <p class="text-center">Comming Soon</p>
+                    <p class="text-center">Coming soon</p>
                 </div>
             @endif
         </div>
