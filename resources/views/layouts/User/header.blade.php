@@ -49,7 +49,7 @@
                         <li><a href="{{route('events')}}">Events</a></li>
                         <li><a href="{{url('/crops')}}">Crops</a></li>
                         <li><a href="{{url('/new-crops')}}">New Crops</a></li>
-                        <li><a href="{{url('/special-crops')}}">Special Crops</a></li>
+                        <li><a href="{{url('/special-crops')}}">Spatial Crops</a></li>
                         <li><a href="{{route('contact')}}">Contact Us</a></li>
                     </ul>
                 </div>
