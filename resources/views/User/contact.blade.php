@@ -11,7 +11,7 @@
                     <div class="contact-info">
                         <h4>Get In Touch</h4>
                         <p>TERRA  MONTE  S.A.</p>
-                        <p>(CONTINOUSLY INNOVATING &CREATING) </p>
+                        <p>(CONTINOUSLY INNOVATING & CREATING) </p>
                         <ul class="contact-details">
                             <li>
                                 <span class="title">Address</span>
@@ -118,7 +118,7 @@
                             <i class="fas fa-globe"></i>
                         </div>
                         <div class="input-item">
-                            <input type="text" name="country" placeholder="Your country Name">
+                            <input type="text" name="country" placeholder="Your Country Name">
                             <i class="fas fa-globe"></i>
                         </div>
                         <div class="input-item">
