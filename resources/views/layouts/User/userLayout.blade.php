@@ -75,7 +75,6 @@
     <link rel="stylesheet" href="{{asset('User/assets/css/style.css?v=5')}}">
     <link rel="stylesheet" href="{{asset('User/assets/css/custom.css')}}">
     <link href="https://vjs.zencdn.net/7.19.2/video-js.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.min.css">
     <style>
         .tm-cover
         {
@@ -140,13 +139,7 @@
 <script src='{{asset('User/assets/js/functions.js')}}'></script>
 <script src='{{asset('User/assets/js/custom.js')}}'></script>
 <script src="https://vjs.zencdn.net/7.19.2/video.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/parweb-filepond-plugin-image-exif-orientation@1.0.1/dist/filepond-plugin-image-exif-orientation.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/filepond-plugin-file-validate-size@2.2.5/dist/filepond-plugin-file-validate-size.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/locales-all.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/locales-all.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/videojs-sprite-thumbnails@0.6.0/dist/videojs-sprite-thumbnails.min.js"></script>
+
 
 @yield('scripts')
 

@@ -166,17 +166,8 @@
 @endsection
 @section('scripts')
     <script>
-        // $(documnt).ready(function(){
-        //     $('#player').css('height','100%');
-        // });
-
-        var player = videojs('my-video');
-
-
-        player.spriteThumbnails({
-            url: 'https://terramonteseeds.com/User/assets/images/TmLogo2.png',
-            width: 160,
-            height: 90
+        $(documnt).ready(function(){
+            $('#player').css('height','100%');
         });
     </script>
 @endsection
