@@ -61,7 +61,7 @@
                                         @foreach($event->getMedia('event') as $event_image)
                                             <div class="swiper-slide">
                                                 <div class="banner-content-area">
-                                                    <div class="slider-image slider-image2" style="background-image: url('{{$event_image->getUrl()}}')"></div>
+                                                    <div class="slider-image slider-image2" style="background-image: url('{{$event_image->getUrl()}}');background-size: cover !important;"></div>
                                                 </div>
                                             </div>
                                         @endforeach
