@@ -59,7 +59,7 @@
                             class="video-js"
                             controls
                             preload="auto"
-                            height="264"
+                            height="350px"
                             poster="MY_VIDEO_POSTER.jpg"
                             data-setup="{}"
                             style="width: 100%"
