@@ -170,7 +170,7 @@
         //     $('#player').css('height','100%');
         // });
 
-        var player = videojs('player');
+        var player = videojs('my-video');
 
 
         player.spriteThumbnails({
