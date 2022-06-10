@@ -220,7 +220,7 @@
                                         <div class="product-item">
                                             <div class="product-thumb">
                                                 <a href="{{url('product/'.$special->id)}}"><img src="{{$special->getMedia('main_image_seed')->first()->getUrl()}}" alt="product"></a>
-                                                <span class="batch sale">special</span>
+                                                <span class="batch sale">spacial</span>
                                             </div>
                                             <div class="product-content">
                                                 <h6><a href="{{url('product/'.$special->id)}}" class="product-title">{{$special->name}}</a></h6>
