@@ -49,7 +49,7 @@
                                 preload="auto"
                                 height="350px"
                                 poster="MY_VIDEO_POSTER.jpg"
-                                data-setup="{}"
+                                data-setup='{"poster":"https://terramonteseeds.com/User/assets/images/TmLogo2.png"}'
                                 style="width: 100%"
                             >
                                 <source src="/fieldday 2022.mp4.mp4" type="video/mp4" />
@@ -70,7 +70,7 @@
                                 preload="auto"
                                 height="350px"
                                 poster="MY_VIDEO_POSTER.jpg"
-                                data-setup="{}"
+                                data-setup='{"poster":"https://terramonteseeds.com/User/assets/images/TmLogo2.png"}'
                                 style="width: 100%"
                             >
                                 <source src="/terramonte project.mp4" type="video/mp4" />
@@ -96,36 +96,6 @@
                                                 </div>
                                             </div>
                                         @endforeach
-                                        {{--                                        <div class="swiper-slide">--}}
-                                        {{--                                            <div class="banner-content-area">--}}
-                                        {{--                                                <div class="slider-image slider-image2" style="background-image: url('https://omablear.sirv.com/Images/_DSC7365.jpg');background-size: cover !important;"></div>--}}
-                                        {{--                                            </div>--}}
-                                        {{--                                        </div>--}}
-                                        {{--                                        <div class="swiper-slide">--}}
-                                        {{--                                            <div class="banner-content-area">--}}
-                                        {{--                                                <div class="slider-image slider-image2" style="background-image: url('https://omablear.sirv.com/Images/_DSC7344.jpg');background-size: cover !important;"></div>--}}
-                                        {{--                                            </div>--}}
-                                        {{--                                        </div>--}}
-                                        {{--                                        <div class="swiper-slide">--}}
-                                        {{--                                            <div class="banner-content-area">--}}
-                                        {{--                                                <div class="slider-image slider-image2" style="background-image: url('https://omablear.sirv.com/Images/_DSC7343.jpg');background-size: cover !important;"></div>--}}
-                                        {{--                                            </div>--}}
-                                        {{--                                        </div>--}}
-                                        {{--                                        <div class="swiper-slide">--}}
-                                        {{--                                            <div class="banner-content-area">--}}
-                                        {{--                                                <div class="slider-image slider-image2" style="background-image: url('https://omablear.sirv.com/Images/_DSC2408.jpg');background-size: cover !important;"></div>--}}
-                                        {{--                                            </div>--}}
-                                        {{--                                        </div>--}}
-                                        {{--                                        <div class="swiper-slide">--}}
-                                        {{--                                            <div class="banner-content-area">--}}
-                                        {{--                                                <div class="slider-image slider-image2" style="background-image: url('https://omablear.sirv.com/Images/_DSC7337.jpg');background-size: cover !important;"></div>--}}
-                                        {{--                                            </div>--}}
-                                        {{--                                        </div>--}}
-                                        {{--                                        <div class="swiper-slide">--}}
-                                        {{--                                            <div class="banner-content-area">--}}
-                                        {{--                                                <div class="slider-image slider-image2" style="background-image: url('https://omablear.sirv.com/Images/_DSC2391.jpg');background-size: cover !important;"></div>--}}
-                                        {{--                                            </div>--}}
-                                        {{--                                        </div>--}}
                                     </div>
                                     <div class="swiper-pagination"></div>
                                 </div>
