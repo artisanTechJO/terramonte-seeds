@@ -15,7 +15,6 @@
                     <div class="product-item">
                         <div class="product-thumb">
                             <img src="{{$subBranche->getMedia('branch')->first()->getUrl()}}" alt="product">
-                            <span class="batch sale">special</span>
                         </div>
                         <div class="product-content">
                             <h6><a href="/sub-branches-products/{{$subBranche->id}}/{{$crops->id}}" class="product-title">{{$subBranche->name}}</a></h6>
