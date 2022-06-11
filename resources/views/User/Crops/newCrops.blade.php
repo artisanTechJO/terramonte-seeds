@@ -33,6 +33,7 @@
                             <div class="product-item">
                                 <div class="product-thumb">
                                     <img src="{{$product->getMedia('main_image_seed')->first()->getUrl()}}"  alt="product">
+                                    <span class="batch sale">New</span>
                                 </div>
                                 <div class="product-content">
                                     <h6><a

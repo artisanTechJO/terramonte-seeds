@@ -33,7 +33,7 @@
                             <div class="product-item">
                                 <div class="product-thumb">
                                     <img src="{{$product->getMedia('main_image_seed')->first()->getUrl()}}" style="height: 250px; width: 250px " alt="product">
-                                    <span class="batch sale">special</span>
+                                    <span class="batch sale">Special</span>
                                 </div>
                                 <div class="product-content">
                                     <h6><a
