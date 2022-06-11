@@ -25,6 +25,11 @@
                     <div class="product-item">
                         <div class="product-thumb">
                             <img src="{{$product->getMedia('main_image_seed')->first()->getUrl()}}" alt="product">
+                            @if($product->status ==2)
+                                <span class="batch sale">Special</span>
+                            @endif($product->status == 3)
+                               <span class="batch sale">New</span>
+                            @endif
                         </div>
                         <div class="product-content">
                             <h6><a href="/product/{{$product->id}}" class="product-title">{{$product->name}}</a></h6>
