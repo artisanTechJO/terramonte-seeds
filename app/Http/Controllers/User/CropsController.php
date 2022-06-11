@@ -18,7 +18,6 @@ class CropsController extends Controller
 
     public function getSpecialCrops(){
         $products =  Seed::where('status',2)->paginate(12);
-        dd($products);
         return view('User.Crops.specialCrops',compact('products'));
     }
 
