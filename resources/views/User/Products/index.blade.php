@@ -27,7 +27,7 @@
                             <img src="{{$product->getMedia('main_image_seed')->first()->getUrl()}}" alt="product">
                             @if($product->status ==2)
                                 <span class="batch sale">Special</span>
-                            @endif($product->status == 3)
+                            @elseif($product->status == 2)
                                <span class="batch sale">New</span>
                             @endif
                         </div>
