@@ -22,7 +22,7 @@ class CropsController extends Controller
     }
 
     public function getNewCrops(){
-        $products =  Product::where('status',3)->paginate(12);
+        $products =  Seed::where('status',3)->paginate(12);
 
         return view('User.Crops.newCrops',compact('products'));
     }
