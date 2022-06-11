@@ -32,7 +32,7 @@
                         <div class="col-6 col-md-3">
                             <div class="product-item">
                                 <div class="product-thumb">
-                                    <img src="{{$product->getMedia('image')->first()->getUrl()}}"  alt="product">
+                                    <img src="{{$product->getMedia('main_image_seed')->first()->getUrl()}}"  alt="product">
                                 </div>
                                 <div class="product-content">
                                     <h6><a
