@@ -52,8 +52,8 @@
                                 data-setup='{"poster":"https://terramonteseeds.com/User/assets/images/TmLogo2.png"}'
                                 style="width: 100%"
                             >
-                                <source src="/fieldday 2022.mp4" type="video/mp4" />
-                                <source src="/fieldday 2022.mp4" type="video/webm" />
+                                <source src="/fieldday.mp4" type="video/mp4" />
+                                <source src="/fieldday.mp4" type="video/webm" />
                             </video>
                         </div>
                     </div>
