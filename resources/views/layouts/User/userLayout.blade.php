@@ -136,7 +136,7 @@
 <script src='{{asset('User/assets/js/fly-cart.js')}}'></script>
 <script src='{{asset('User/assets/js/multi-countdown.js')}}'></script>
 <script src='{{asset('User/assets/js/theia-sticky-sidebar.js')}}'></script>
-<script src='{{asset('User/assets/js/functions.js')}}'></script>
+<script src='{{asset('User/assets/js/functions.js?v=3')}}'></script>
 <script src='{{asset('User/assets/js/custom.js')}}'></script>
 <script src="https://vjs.zencdn.net/7.19.2/video.min.js"></script>
 
