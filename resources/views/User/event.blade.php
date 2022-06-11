@@ -42,8 +42,19 @@
                 <div class="entry-wrapper">
                     <div class="entry-single">
                         <div class="entry-header">
-                            <iframe  width="100%" height="400" src="https://player.vimeo.com/video/717629889?h=d603562edc&amp;" style="border:none;border-radius: 15px">
-                            </iframe>
+                            <video
+                                id="my-video2"
+                                class="video-js"
+                                controls
+                                preload="auto"
+                                height="350px"
+                                poster="MY_VIDEO_POSTER.jpg"
+                                data-setup='{"poster":"https://terramonteseeds.com/User/assets/images/TmLogo2.png"}'
+                                style="width: 100%"
+                            >
+                                <source src="/fieldday 2022.mp4" type="video/mp4" />
+                                <source src="/fieldday 2022.mp4" type="video/webm" />
+                            </video>
                         </div>
                     </div>
                 </div>
