@@ -62,7 +62,7 @@
     // trending-product-container swiper slider init
     var trendingContainer = new Swiper('.trending-product-container', {
         slidesPerView: 4,
-        loop: true,
+        loop: false,
         navigation: {
             nextEl: '.trending-slider-next',
             prevEl: '.trending-slider-prev',
