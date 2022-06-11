@@ -16,7 +16,7 @@
                             <ul>
                                 <li><a href="{{url('/crops')}}">All</a></li>
                                 <li><a href="{{url('/new-crops')}}">New</a></li>
-                                <li><a href="{{url('/special-crops')}}">Spacial</a></li>
+                                <li><a href="{{url('/special-crops')}}">Special</a></li>
                             </ul>
                         </div>
                     </div>
