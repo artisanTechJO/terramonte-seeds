@@ -21,7 +21,7 @@
     <div class="container product-container">
         <div class="row" style="margin-bottom: 50px">
             @foreach($products as $product)
-                <div class="col-6 col-md-3">
+                <div class="col-6 col-md-3 mb-4">
                     <div class="product-item">
                         <div class="product-thumb">
                             <img src="{{$product->getMedia('main_image_seed')->first()->getUrl()}}" alt="product">
