@@ -5,7 +5,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="footer-widget">
                         <a href="{{url('/')}}" class="footer-logo"><img style="max-width: 200px" src="{{asset('User/assets/images/TmLogo2.png')}}" alt="logo"></a>
-                        <p> (CONTINOUSLY INNOVATING &CREATING) </p>
+                        <p> (CONTINOUSLY INNOVATING & CREATING) </p>
                     </div>
                 </div>
 
