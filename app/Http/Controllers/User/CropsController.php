@@ -4,6 +4,7 @@ namespace App\Http\Controllers\User;
 
 use App\Http\Controllers\Controller;
 use App\Models\Product;
+use App\Models\Seed;
 use Illuminate\Http\Request;
 
 class CropsController extends Controller
@@ -16,8 +17,7 @@ class CropsController extends Controller
     }
 
     public function getSpecialCrops(){
-        $products =  Product::where('status',2)->paginate(12);
-        dd($products);
+        $products =  Seed::where('status',2)->paginate(12);
         return view('User.Crops.specialCrops',compact('products'));
     }
 
