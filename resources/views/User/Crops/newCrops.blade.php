@@ -36,15 +36,7 @@
                                     <span class="batch sale">New</span>
                                 </div>
                                 <div class="product-content">
-                                    <h6><a
-                                            @switch($product->type)
-                                            @case(1)
-                                            href="/products/{{$product->id}}"
-                                            @case(2)
-                                            href="/branches/{{$product->id}}"
-                                            @case(3)
-                                            href="/branches/{{$product->id}}"
-                                            @endswitch
+                                    <h6><a href="/products/{{$product->id}}"
 
                                             class="product-title">{{$product->name}}</a></h6>
                                     <div class="d-flex justify-content-between align-items-center">
