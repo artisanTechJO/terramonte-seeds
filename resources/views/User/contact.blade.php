@@ -50,6 +50,8 @@
                             <li>
                                 <span class="title">International Marketing Manager</span>
                                 <span class="desc">
+                                    Carlo Giani
+                                    <br>
                                     carlo@terramonteseeds.com
                                       <br>
                                     +352691244731
