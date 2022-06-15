@@ -36,7 +36,7 @@
                                     <span class="batch sale">Special</span>
                                 </div>
                                 <div class="product-content">
-                                    <h6><a href="/products/{{$product->id}}"
+                                    <h6><a href="/product/{{$product->id}}"
 
                                             class="product-title">{{$product->name}}</a></h6>
                                     <div class="d-flex justify-content-between align-items-center">
