@@ -61,6 +61,7 @@
                                             <div class="alert alert-danger">No Products Added</div>
                                         </tr>
                                     @endif
+                                    {{$seeds->links}}
                                     </tbody>
                                 </table>
                             </div>

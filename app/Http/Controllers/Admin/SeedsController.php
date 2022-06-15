@@ -18,7 +18,7 @@ class SeedsController extends Controller
      */
     public function index()
     {
-        $seeds =  Seed::take(5)->get();
+        $seeds =  Seed::paginate(15);
 
         return view('Admin.Seed.index',compact('seeds'));
     }
