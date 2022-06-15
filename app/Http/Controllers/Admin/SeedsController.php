@@ -18,7 +18,7 @@ class SeedsController extends Controller
      */
     public function index()
     {
-        $seeds =  Seed::all();
+        $seeds =  Seed::all()->take(5);
 
         return view('Admin.Seed.index',compact('seeds'));
     }
