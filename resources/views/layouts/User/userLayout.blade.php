@@ -137,6 +137,9 @@
 <script src='{{asset('User/assets/js/functions.js?v=3')}}'></script>
 <script src='{{asset('User/assets/js/custom.js')}}'></script>
 <script src="https://vjs.zencdn.net/7.19.2/video.min.js"></script>
+<script>
+    document.addEventListener('contextmenu', event => event.preventDefault());
+</script>
 
 
 @yield('scripts')
