@@ -121,8 +121,6 @@
 @include('layouts.User.footer')
 <!-- footer section -->
 
-<h1 style="visibility: hidden;margin: 0px;padding: 0px">Terramonte Seeds</h1>
-
 <!-- Scripts -->
 <script src="{{ asset('js/app.js') }}" defer></script>
 <script src='{{asset('User/assets/js/jquery.min.js')}}'></script>
