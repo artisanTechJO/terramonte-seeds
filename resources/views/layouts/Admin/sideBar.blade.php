@@ -71,7 +71,7 @@
          </ul>
          <div class="copyright">
              <p>© 2021 All Rights Reserved</p>
-             <p class="fs-12">Made with <span class="heart"></span> Artisan Teach Solution</p>
+             <p class="fs-12">Made By <span class="heart"></span> Artisan Teach Solution</p>
          </div>
      </div>
  </div>
